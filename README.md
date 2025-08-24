@@ -1,6 +1,7 @@
 # Election scraper (projekt 3)
 
-Cílem tohoto projektu bylo vytvořit python script, který stáhne výsledky voleb do Poslanecké sněmovny z roku 2017  (z tohoto [odkazu](https://volby.cz/pls/ps2017nss/ps3?xjazyk=CZ)) pro libovolný vybraný okres z webového odkazu a uloží jej do csv souboru.
+Cílem tohoto projektu bylo vytvořit python script, který stáhne výsledky voleb do Poslanecké sněmovny z roku 2017  (z tohoto [odkazu](https://volby.cz/pls/ps2017nss/ps3?xjazyk=CZ)) pro libovolný vybraný okres (po rozkliknutí jeho kódu nebo symbolu X ve sloupci "Výběr obce") z webového odkazu a uloží jej do csv souboru.
+
 
 **Depozitář projektu obsahuje tyto soubory:**
 1) main.py (exekuční skript)
@@ -25,14 +26,14 @@ pip install -r requirements.txt
 4) Pak už je možné spustit skript příkazem ve tvaru:
  
 ```bash
-python "webova_adresa_s_vysledky_voleb_v_danem okrese" nazev_souboru.csv
+python "webova_adresa_s_vysledky_voleb_v_danem_okrese" nazev_souboru.csv
 ```
 Je vidět, že příkaz obsahuje 2 argumenty - 1) URL v uvozovkách a 2) název csv souboru, do kterého se výsledky voleb v daném okrese uloží
 
 **Konkrétni příklad:**
 
 ```bash
-python "" Praha-zapad.csv
+python "https://www.volby.cz/pls/ps2017nss/ps311?xjazyk=CZ&xkraj=2&xnumnuts=2110" Praha-zapad.csv
 ```
 5) Vytvořený csv soubor s volebními výsledky se automaticky uloží do stejné složky, ve které je i naše virtualní prostředí.
 
