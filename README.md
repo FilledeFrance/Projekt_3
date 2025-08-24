@@ -25,11 +25,11 @@ pip install -r requirements.txt
 4) Pak už je možné spustit skript příkazem ve tvaru:
  
 ```bash
-python "webova_adresa_na_vysledky_voleb_v_danem okrese" nazev_souboru.csv
+python "webova_adresa_s_vysledky_voleb_v_danem okrese" nazev_souboru.csv
 ```
 Je vidět, že příkaz obsahuje 2 argumenty - 1) URL v uvozovkách a 2) název csv souboru, do kterého se výsledky voleb v daném okrese uloží
 
-konkrétni příklad:
+**Konkrétni příklad:**
 
 ```bash
 python "" Praha-zapad.csv
