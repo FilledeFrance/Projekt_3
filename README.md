@@ -1,4 +1,4 @@
-# Election scraper (projekt 3)
+# Elections scraper (projekt 3)
 
 Cílem tohoto projektu bylo vytvořit python script, který stáhne výsledky voleb do Poslanecké sněmovny Parlamentu ČR z roku 2017  (z tohoto [odkazu](https://volby.cz/pls/ps2017nss/ps3?xjazyk=CZ)) pro libovolný vybraný okres (po rozkliknutí jeho kódu nebo symbolu X ve sloupci "Výběr obce") z webového odkazu a uloží jej do csv souboru.
 
